@@ -1,6 +1,5 @@
 import streamlit as st
-import tensorflow as tf
-from tensorflow.keras.preprocessing import image
+
 import pandas as pd
 
 
