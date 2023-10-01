@@ -27,13 +27,13 @@ print ('K-Nearest: ', classifier.score(x_test, y_test))
 def main():
   st.title('Creutzfeldt-Jakob Disease Diagnosis')
   st.sidebar.header('Input')
- ttau= st.text_input("t-tau level:")
- ptau= st.text_input("p-tau level:")
- ptrat= st.text_input("p/t-ratio:")
- abeta= st.text_input("A-beta level:")
- fourteen= st.text_input("14-3-3 level:")
-new_point=[(ttau,ptau,ptrat,abeta,fourteen)]
-prediction = classifier.predict(new_point)
-st.sidebar.success(f'Prediction: {prediction}')
+  ttau= st.text_input("t-tau level:")
+  ptau= st.text_input("p-tau level:")
+  ptrat= st.text_input("p/t-ratio:")
+  abeta= st.text_input("A-beta level:")
+  fourteen= st.text_input("14-3-3 level:")
+  new_point=[(ttau,ptau,ptrat,abeta,fourteen)]
+  prediction = classifier.predict(new_point)
+  st.sidebar.success(f'Prediction: {prediction}')
 if __name__ == '__main__':
   main()
