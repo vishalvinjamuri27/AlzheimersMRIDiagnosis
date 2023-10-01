@@ -1,13 +1,13 @@
 import streamlit as st
-from sklearn.metrics import roc_auc_score, roc_curve, auc
-from sklearn.preprocessing import LabelEncoder
-from sklearn.utils import class_weight
-from sklearn.model_selection import StratifiedKFold
-from sklearn.model_selection import train_test_split
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.model_selection import cross_val_score
+#from sklearn.metrics import roc_auc_score, roc_curve, auc
+#from sklearn.preprocessing import LabelEncoder
+#from sklearn.utils import class_weight
+#from sklearn.model_selection import StratifiedKFold
+#from sklearn.model_selection import train_test_split
+#import seaborn as sns
+#import matplotlib.pyplot as plt
+#import numpy as np
+#from sklearn.model_selection import cross_val_score
 # input seed number
 seed = 0
 np.random.seed(seed)
