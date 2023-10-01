@@ -6,7 +6,7 @@ import streamlit as st
 #from sklearn.model_selection import train_test_split
 #import seaborn as sns
 #import matplotlib.pyplot as plt
-#import numpy as np
+import numpy as np
 #from sklearn.model_selection import cross_val_score
 # input seed number
 seed = 0
