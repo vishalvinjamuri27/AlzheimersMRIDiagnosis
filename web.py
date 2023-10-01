@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 from sklearn.metrics import roc_auc_score, roc_curve, auc
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils import class_weight
